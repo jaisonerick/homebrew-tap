@@ -5,13 +5,13 @@
 class MacwifiCli < Formula
   desc "Drop-in airport replacement for macOS 13+. Scans Wi-Fi networks, inspects the current connection, and reads saved Keychain passwords."
   homepage "https://github.com/jaisonerick/macwifi-cli"
-  version "0.1.0"
+  version "1.0.0"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/jaisonerick/macwifi-cli/releases/download/v0.1.0/macwifi-cli_0.1.0_darwin_arm64.tar.gz"
-    sha256 "079817b9312bff5811dcc390355268f030720ec0c1a93e5688a72a785dd8bf38"
+    url "https://github.com/jaisonerick/macwifi-cli/releases/download/v1.0.0/macwifi-cli_1.0.0_darwin_arm64.tar.gz"
+    sha256 "bdfd2bec75d97529580d5af397bc8aa6072f0ecdedd8202373e3578867e91680"
 
     define_method(:install) do
       bin.install "macwifi-cli"
