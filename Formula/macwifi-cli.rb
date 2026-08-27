@@ -5,7 +5,6 @@
 class MacwifiCli < Formula
   desc "Drop-in airport replacement for macOS 13+. Scans Wi-Fi networks, inspects the current connection, and reads saved Keychain passwords."
   homepage "https://github.com/jaisonerick/macwifi-cli"
-  version "1.0.0"
   license "MIT"
   depends_on :macos
 
